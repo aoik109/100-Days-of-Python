@@ -13,13 +13,13 @@ color = input()
 
 print("What are your favorite two numbers?")
 print("First number:")
-num1 = input()
+num1 = int(input())
 print("Second number:")
-num2 = input()
+num2 = int(input())
 print("Very cool!")
 num = num1 * num2
 
 print("Lastly, what is your favorite type of animal?")
 animal = input()
 
-print("Awesome! Your username is: " + name + num + animal)
+print("Awesome! Your username is: " + name + str(num) + animal)
